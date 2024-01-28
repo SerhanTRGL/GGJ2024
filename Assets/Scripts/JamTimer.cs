@@ -9,20 +9,26 @@ public class JamTimer : MonoBehaviour{
     private float _minuteConstant;
     [SerializeField] private List<string> _allTimeRepresentations = new List<string>();
     private void Start() {
-        _hourConstant = 720f / 48f;
+        _hourConstant = 240f / 48f;
         _minuteConstant = _hourConstant / 4f;
         
         GenerateAllTimeRepresentations();
     }
 
-    
+    int index = 0;
+    float minuteTimer = 0;
     void Update(){
-
+        timerText.text = _allTimeRepresentations[index];
+        minuteTimer += Time.deltaTime;
+        if(minuteTimer>=_minuteConstant){
+            index = index < _allTimeRepresentations.Count ? index+1 : _allTimeRepresentations.Count-1;
+            minuteTimer=0;
+        }
     }
 
     private void GenerateAllTimeRepresentations(){
         int hours = 48;
-        for(int i = 0; i<=720f/_minuteConstant; i++){
+        for(int i = 0; i<=240f/_minuteConstant; i++){
             string text = hours.ToString() + "Hrs ";
             if(i%4 == 0){
                 text += "00 Mins";
