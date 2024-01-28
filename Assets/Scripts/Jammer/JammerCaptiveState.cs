@@ -1,26 +1,47 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JammerCaptiveState : JammerBaseState
 {
+    PlayerInteraction p;
+    private Collider2D col;
+    JammerStateMachine jammer;
     public override void EnterState(JammerStateMachine jammerStateMachine)
     {
-        throw new System.NotImplementedException();
+        p = GameObject.FindWithTag("Player").GetComponent<PlayerInteraction>();
+        jammerStateMachine.jammerRb.velocity = Vector2.zero;
+        jammer = jammerStateMachine;
     }
 
-    public override void ExitState(JammerStateMachine jammerStateMachine)
-    {
-        throw new System.NotImplementedException();
+    public override void ExitState(JammerStateMachine jammerStateMachine){}
+
+    public override void Interact(){
+        p.currentlyHeldJammer = null;
+        jammer.transform.parent = null;
+
+        Table table;
+        if(col != null){
+            if(col.TryGetComponent(out table)){
+                if(table != null){
+                    Chair chair = table.GetEmptyChair();
+                    if(chair != null){
+                        chair.Sit(jammer.gameObject);
+                        JammerManager.Instance.ReleaseToken();
+                        jammer.SwitchState(jammer.workingState);
+                    }
+                }
+                else{
+                    jammer.SwitchState(jammer.runningState);
+                }
+            }       
+        }
+        else{
+            jammer.SwitchState(jammer.runningState);
+        }
     }
 
-    public override void Interact(JammerStateMachine jammerStateMachine)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public override void UpdateState(JammerStateMachine jammerStateMachine)
-    {
-        throw new System.NotImplementedException();
+    public override void UpdateState(JammerStateMachine jammerStateMachine){
+        jammerStateMachine.transform.localPosition = p.holdPoint.localPosition;
+        col = Physics2D.OverlapCircle(jammerStateMachine.transform.position, 3f, LayerMask.GetMask("Desk"));
+        Debug.Log(col?.name);
     }
 }

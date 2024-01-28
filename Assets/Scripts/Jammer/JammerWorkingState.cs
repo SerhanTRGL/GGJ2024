@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JammerWorkingState : JammerBaseState{
     //Absolutely wait for 10s
-    private float _waitTime = 10f;
-
+    private float _waitTime = 7f;
     //Chance of escaping each second after absolute wait
-    private float _exitChance = 0.1f; 
+    private float _exitChance = 0.10f; 
     private float _waitTimeCounter;
     private float _secondCounter;
     public override void EnterState(JammerStateMachine jammerStateMachine){
@@ -16,10 +13,13 @@ public class JammerWorkingState : JammerBaseState{
     }
     public override void UpdateState(JammerStateMachine jammerStateMachine){
         if(_waitTimeCounter >= _waitTime){
-            if(_secondCounter >= 1f){
+            if(_secondCounter >= 0.75f){
                 if(Random.Range(0f, 1f) <= _exitChance && JammerManager.Instance.TakeToken()){
-                    Debug.Log("Jammer #0 is RUNNING AWAY!");
-                    //jammerStateMachine.SwitchState(jammerStateMachine.runningState);
+                    jammerStateMachine.jammerChair.GetUp(jammerStateMachine.gameObject);
+                    jammerStateMachine.SwitchState(jammerStateMachine.runningState);
+                }
+                else{
+                    _waitTimeCounter = 0;
                 }
                 _secondCounter = 0f;
             }
@@ -28,14 +28,12 @@ public class JammerWorkingState : JammerBaseState{
         _waitTimeCounter = _waitTimeCounter > _waitTime ? _waitTime : _waitTimeCounter+Time.deltaTime;
     }
 
-    public override void ExitState(JammerStateMachine jammerStateMachine)
-    {
-        throw new System.NotImplementedException();
+    public override void ExitState(JammerStateMachine jammerStateMachine){
+        
     }
 
-    public override void Interact(JammerStateMachine jammerStateMachine)
+    public override void Interact()
     {
-        throw new System.NotImplementedException();
     }
 
 

@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
 public class JammerManager : MonoBehaviour{
@@ -8,7 +6,7 @@ public class JammerManager : MonoBehaviour{
     public static JammerManager Instance{get; private set;}
     [SerializeField] private int _maxSimultaneousExits = 5;
     [SerializeField] private int _availableExitTokens;
-    [SerializeField] private List<Jammer> _jammers = new List<Jammer>();
+    [SerializeField] private List<JammerStateMachine> _jammers = new List<JammerStateMachine>();
     
     private void Awake() {
         if(Instance != null && Instance != this){
@@ -30,16 +28,16 @@ public class JammerManager : MonoBehaviour{
     }
 
     public void ReleaseToken(){
-        _availableExitTokens = _availableExitTokens>_maxSimultaneousExits?_maxSimultaneousExits:_availableExitTokens++;
+        _availableExitTokens = _availableExitTokens>_maxSimultaneousExits?_maxSimultaneousExits:_availableExitTokens+1;
     }
 
-    public void AddJammerToList(Jammer jammer){
+    public void AddJammerToList(JammerStateMachine jammer){
         if(!_jammers.Contains(jammer)){
             _jammers.Add(jammer);
         }
     }
-    
-    public void RemoveJammerFromList(Jammer jammer){
+
+    public void RemoveJammerFromList(JammerStateMachine jammer){
         if(_jammers.Contains(jammer)){
             _jammers.Remove(jammer);
         }
