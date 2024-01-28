@@ -10,6 +10,7 @@ public class JammerCaptiveState : JammerBaseState
         p = GameObject.FindWithTag("Player").GetComponent<PlayerInteraction>();
         jammerStateMachine.jammerRb.velocity = Vector2.zero;
         jammer = jammerStateMachine;
+        jammer.audioController.PlaySound(jammer.audioController.jammerCaught);
     }
 
     public override void ExitState(JammerStateMachine jammerStateMachine){}
@@ -26,6 +27,7 @@ public class JammerCaptiveState : JammerBaseState
                     if(chair != null){
                         chair.Sit(jammer.gameObject);
                         JammerManager.Instance.ReleaseToken();
+                        jammer.audioController.PlaySound(jammer.audioController.jammerMadeSit);
                         jammer.SwitchState(jammer.workingState);
                     }
                 }

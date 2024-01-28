@@ -1,0 +1,248 @@
+Date : 2024-01-28 09:54:26
+Directory : d:\UnityProjects\GGJ2024\Assets\Scripts
+Total : 172 files,  -43240 codes, -11137 comments, -8541 blanks, all -62918 lines
+
+Languages
++-------------------------+------------+------------+------------+------------+------------+
+| language                | files      | code       | comment    | blank      | total      |
++-------------------------+------------+------------+------------+------------+------------+
+| XML                     |          1 |        -22 |          0 |          0 |        -22 |
+| UnityAssemblyDefinition |          3 |        -33 |          0 |          0 |        -33 |
+| JSON                    |          4 |       -790 |          0 |         -4 |       -794 |
+| Markdown                |          2 |     -1,900 |          0 |       -107 |     -2,007 |
+| UnityShader             |         22 |     -2,604 |       -106 |       -711 |     -3,421 |
+| HTML                    |          1 |    -15,381 |          0 |     -1,662 |    -17,043 |
+| C#                      |        139 |    -22,510 |    -11,031 |     -6,057 |    -39,598 |
++-------------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                             |        172 |    -43,240 |    -11,137 |     -8,541 |    -62,918 |
+| ..                                                                                                            |        172 |    -43,240 |    -11,137 |     -8,541 |    -62,918 |
+| ..\..                                                                                                         |          2 |       -593 |          0 |         -2 |       -595 |
+| ..\..\Packages                                                                                                |          2 |       -593 |          0 |         -2 |       -595 |
+| ..\AstarPathfindingProject                                                                                    |        144 |    -38,859 |    -10,500 |     -7,671 |    -57,030 |
+| ..\AstarPathfindingProject (Files)                                                                            |          4 |     -1,966 |          0 |       -105 |     -2,071 |
+| ..\AstarPathfindingProject\Behaviors                                                                          |          2 |        -52 |        -31 |        -17 |       -100 |
+| ..\AstarPathfindingProject\Core                                                                               |         48 |     -9,552 |     -6,087 |     -2,717 |    -18,356 |
+| ..\AstarPathfindingProject\Core (Files)                                                                       |          8 |     -3,349 |     -2,865 |     -1,020 |     -7,234 |
+| ..\AstarPathfindingProject\Core\AI                                                                            |          7 |     -1,162 |     -1,352 |       -387 |     -2,901 |
+| ..\AstarPathfindingProject\Core\Misc                                                                          |         27 |     -3,689 |     -1,290 |       -961 |     -5,940 |
+| ..\AstarPathfindingProject\Core\Nodes                                                                         |          1 |       -330 |       -385 |        -97 |       -812 |
+| ..\AstarPathfindingProject\Core\Serialization                                                                 |          5 |     -1,022 |       -195 |       -252 |     -1,469 |
+| ..\AstarPathfindingProject\Documentation                                                                      |          2 |    -15,387 |          0 |     -1,664 |    -17,051 |
+| ..\AstarPathfindingProject\Editor                                                                             |         22 |     -3,010 |       -233 |       -735 |     -3,978 |
+| ..\AstarPathfindingProject\Editor (Files)                                                                     |         11 |     -1,953 |       -167 |       -477 |     -2,597 |
+| ..\AstarPathfindingProject\Editor\EditorAssets                                                                |          3 |       -210 |        -24 |        -51 |       -285 |
+| ..\AstarPathfindingProject\Editor\EditorAssets\Materials                                                      |          3 |       -210 |        -24 |        -51 |       -285 |
+| ..\AstarPathfindingProject\Editor\GraphEditors                                                                |          4 |       -735 |        -42 |       -190 |       -967 |
+| ..\AstarPathfindingProject\Editor\Legacy                                                                      |          2 |        -44 |          0 |         -4 |        -48 |
+| ..\AstarPathfindingProject\Editor\ModifierEditors                                                             |          2 |        -68 |          0 |        -13 |        -81 |
+| ..\AstarPathfindingProject\ExampleScenes                                                                      |         10 |       -486 |       -143 |       -133 |       -762 |
+| ..\AstarPathfindingProject\ExampleScenes\Example12_Procedural                                                 |          1 |       -175 |        -52 |        -55 |       -282 |
+| ..\AstarPathfindingProject\ExampleScenes\ExampleScripts                                                       |          7 |       -255 |        -91 |        -62 |       -408 |
+| ..\AstarPathfindingProject\ExampleScenes\Materials                                                            |          2 |        -56 |          0 |        -16 |        -72 |
+| ..\AstarPathfindingProject\Generators                                                                         |         18 |     -4,695 |     -2,281 |     -1,315 |     -8,291 |
+| ..\AstarPathfindingProject\Generators (Files)                                                                 |          6 |     -2,725 |     -1,638 |       -817 |     -5,180 |
+| ..\AstarPathfindingProject\Generators\NodeClasses                                                             |          4 |       -844 |       -361 |       -254 |     -1,459 |
+| ..\AstarPathfindingProject\Generators\Utilities                                                               |          8 |     -1,126 |       -282 |       -244 |     -1,652 |
+| ..\AstarPathfindingProject\Legacy                                                                             |          6 |       -163 |       -132 |        -67 |       -362 |
+| ..\AstarPathfindingProject\Legacy (Files)                                                                     |          2 |       -163 |       -120 |        -59 |       -342 |
+| ..\AstarPathfindingProject\Legacy\Editor                                                                      |          4 |          0 |        -12 |         -8 |        -20 |
+| ..\AstarPathfindingProject\Modifiers                                                                          |          6 |       -713 |       -352 |       -202 |     -1,267 |
+| ..\AstarPathfindingProject\Navmesh                                                                            |          2 |        -87 |        -44 |        -20 |       -151 |
+| ..\AstarPathfindingProject\PackageTools                                                                       |          7 |       -450 |        -64 |       -100 |       -614 |
+| ..\AstarPathfindingProject\PackageTools (Files)                                                               |          3 |        -42 |        -13 |        -14 |        -69 |
+| ..\AstarPathfindingProject\PackageTools\Editor                                                                |          4 |       -408 |        -51 |        -86 |       -545 |
+| ..\AstarPathfindingProject\Pathfinders                                                                        |          1 |       -390 |       -259 |       -108 |       -757 |
+| ..\AstarPathfindingProject\TurnBased                                                                          |          2 |       -129 |        -79 |        -32 |       -240 |
+| ..\AstarPathfindingProject\Utilities                                                                          |         14 |     -1,779 |       -795 |       -456 |     -3,030 |
+| ..\Plugins                                                                                                    |          8 |     -1,295 |       -555 |       -222 |     -2,072 |
+| ..\Plugins\Demigiant                                                                                          |          8 |     -1,295 |       -555 |       -222 |     -2,072 |
+| ..\Plugins\Demigiant\DOTween                                                                                  |          8 |     -1,295 |       -555 |       -222 |     -2,072 |
+| ..\Plugins\Demigiant\DOTween\Modules                                                                          |          8 |     -1,295 |       -555 |       -222 |     -2,072 |
+| ..\TextMesh Pro                                                                                               |         18 |     -2,493 |        -82 |       -646 |     -3,221 |
+| ..\TextMesh Pro\Shaders                                                                                       |         17 |     -2,338 |        -82 |       -644 |     -3,064 |
+| ..\TextMesh Pro\Sprites                                                                                       |          1 |       -155 |          0 |         -2 |       -157 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------+-------------------------+------------+------------+------------+------------+
+| filename                                                                                                      | language                | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+-------------------------+------------+------------+------------+------------+
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\AstarPathfindingProject.asmdef                        | UnityAssemblyDefinition |         -8 |          0 |          0 |         -8 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Behaviors\AIDestinationSetter.cs                      | C#                      |        -20 |        -15 |         -5 |        -40 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Behaviors\Patrol.cs                                   | C#                      |        -32 |        -16 |        -12 |        -60 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\CHANGELOG.md                                          | Markdown                |     -1,894 |          0 |       -105 |     -1,999 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\AIBase.cs                                     | C#                      |       -357 |       -314 |       -104 |       -775 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\AILerp.cs                                     | C#                      |       -351 |       -243 |       -108 |       -702 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\AIPath.cs                                     | C#                      |       -214 |       -201 |        -77 |       -492 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\IAstarAI.cs                                   | C#                      |        -31 |       -336 |        -26 |       -393 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\NavmeshController.cs                          | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\Seeker.cs                                     | C#                      |       -190 |       -252 |        -66 |       -508 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AI\TurnBasedAI.cs                                | C#                      |        -19 |         -3 |         -4 |        -26 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AstarData.cs                                     | C#                      |       -407 |       -220 |       -107 |       -734 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AstarMath.cs                                     | C#                      |       -799 |       -484 |       -248 |     -1,531 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\AstarPath.cs                                     | C#                      |       -845 |     -1,018 |       -301 |     -2,164 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\GraphUpdateScene.cs                              | C#                      |       -209 |       -132 |        -58 |       -399 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\GraphUpdateShape.cs                              | C#                      |        -96 |        -32 |        -16 |       -144 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\AnimationLink.cs                            | C#                      |        -98 |         -1 |        -24 |       -123 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\ArrayPool.cs                                | C#                      |       -112 |        -68 |        -19 |       -199 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\AstarDebugger.cs                            | C#                      |       -226 |        -35 |        -77 |       -338 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\AutoRepathPolicy.cs                         | C#                      |        -45 |        -41 |        -15 |       -101 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\BinaryHeap.cs                               | C#                      |       -191 |        -82 |        -52 |       -325 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\Draw.cs                                     | C#                      |        -71 |         -1 |        -20 |        -92 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\EditorResourceHelper.cs                     | C#                      |        -80 |        -10 |        -16 |       -106 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs                          | C#                      |         -7 |         -2 |         -2 |        -11 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\GraphModifier.cs                            | C#                      |       -119 |        -57 |        -29 |       -205 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\GraphUpdateProcessor.cs                     | C#                      |       -242 |        -65 |        -63 |       -370 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\GraphUtilities.cs                           | C#                      |       -145 |       -100 |        -26 |       -271 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\HierarchicalGraph.cs                        | C#                      |       -222 |        -77 |        -48 |       -347 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\Int3.cs                                     | C#                      |       -220 |        -32 |        -63 |       -315 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\ListPool.cs                                 | C#                      |       -115 |        -74 |        -23 |       -212 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\MovementUtilities.cs                        | C#                      |        -71 |        -77 |        -27 |       -175 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\NodeLink.cs                                 | C#                      |       -116 |        -16 |        -26 |       -158 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\NodeLink2.cs                                | C#                      |       -220 |        -32 |        -57 |       -309 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\NodeLink3.cs                                | C#                      |       -228 |        -18 |        -68 |       -314 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\ObjectPool.cs                               | C#                      |        -65 |        -56 |        -11 |       -132 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\PathInterpolator.cs                         | C#                      |       -144 |        -27 |        -36 |       -207 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\PathPool.cs                                 | C#                      |        -65 |        -11 |        -13 |        -89 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\PathProcessor.cs                            | C#                      |       -340 |       -138 |       -110 |       -588 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\PathReturnQueue.cs                          | C#                      |        -42 |        -20 |        -12 |        -74 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\StackPool.cs                                | C#                      |        -46 |        -40 |        -13 |        -99 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs                       | C#                      |       -181 |        -66 |        -45 |       -292 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs                | C#                      |       -111 |        -15 |        -23 |       -149 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Misc\WorkItemProcessor.cs                        | C#                      |       -167 |       -129 |        -43 |       -339 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Nodes\GraphNode.cs                               | C#                      |       -330 |       -385 |        -97 |       -812 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Path.cs                                          | C#                      |       -375 |       -360 |       -111 |       -846 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\PathHandler.cs                                   | C#                      |       -100 |        -76 |        -34 |       -210 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Serialization\JsonConverters.cs                  | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs                  | C#                      |       -577 |       -159 |       -176 |       -912 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Serialization\SimpleJsonReplacement.cs           | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs            | C#                      |        -62 |          0 |        -18 |        -80 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\Serialization\TinyJson.cs                        | C#                      |       -383 |        -30 |        -54 |       -467 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Core\astarclasses.cs                                  | C#                      |       -518 |       -543 |       -145 |     -1,206 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Documentation\documentation.html                      | HTML                    |    -15,381 |          0 |     -1,662 |    -17,043 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Documentation\index.md                                | Markdown                |         -6 |          0 |         -2 |         -8 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AIBaseEditor.cs                                | C#                      |       -134 |         -3 |        -25 |       -162 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AILerpEditor.cs                                | C#                      |        -27 |          0 |         -5 |        -32 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AnimationLinkEditor.cs                         | C#                      |        -21 |          0 |         -4 |        -25 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AstarPathEditor.cs                             | C#                      |     -1,041 |       -107 |       -295 |     -1,443 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AstarPathfindingProjectEditor.asmdef           | UnityAssemblyDefinition |        -13 |          0 |          0 |        -13 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AstarUpdateChecker.cs                          | C#                      |       -228 |        -36 |        -44 |       -308 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\AstarUpdateWindow.cs                           | C#                      |        -81 |         -1 |        -22 |       -104 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\CustomGraphEditorAttribute.cs                  | C#                      |        -12 |         -4 |         -4 |        -20 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.cginc           | UnityShader             |        -51 |        -19 |         -8 |        -78 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.shader          | UnityShader             |        -89 |         -2 |        -28 |       -119 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\NavmeshOutline.shader   | UnityShader             |        -70 |         -3 |        -15 |        -88 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\GraphEditors\GraphEditor.cs                    | C#                      |       -107 |        -14 |        -25 |       -146 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\GraphEditors\GridGeneratorEditor.cs            | C#                      |       -562 |        -28 |       -141 |       -731 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\GraphEditors\NavMeshGeneratorEditor.cs         | C#                      |        -28 |          0 |        -10 |        -38 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\GraphEditors\PointGeneratorEditor.cs           | C#                      |        -38 |          0 |        -14 |        -52 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\GraphUpdateSceneEditor.cs                      | C#                      |       -257 |        -11 |        -51 |       -319 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\Legacy\LegacyAIPathEditor2.cs                  | C#                      |        -16 |          0 |         -2 |        -18 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\Legacy\LegacyEditorHelper2.cs                  | C#                      |        -28 |          0 |         -2 |        -30 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\ModifierEditors\RaycastModifierEditor.cs       | C#                      |        -29 |          0 |         -6 |        -35 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\ModifierEditors\SmoothModifierEditor.cs        | C#                      |        -39 |          0 |         -7 |        -46 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\ProceduralGridMoverEditor.cs                   | C#                      |        -23 |         -1 |         -5 |        -29 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Editor\SeekerEditor.cs                                | C#                      |       -116 |         -4 |        -22 |       -142 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralWorld.cs | C#                      |       -175 |        -52 |        -55 |       -282 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\AstarSmoothFollow2.cs    | C#                      |        -30 |         -4 |         -5 |        -39 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\DoorController.cs        | C#                      |        -38 |         -9 |        -13 |        -60 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAI.cs             | C#                      |        -36 |        -14 |         -6 |        -56 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAnimation.cs      | C#                      |        -32 |        -31 |        -11 |        -74 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\ObjectPlacer.cs          | C#                      |        -52 |        -14 |        -13 |        -79 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\SnapToNode.cs            | C#                      |        -16 |         -4 |         -2 |        -22 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\TargetMover.cs           | C#                      |        -51 |        -15 |        -12 |        -78 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader   | UnityShader             |        -30 |          0 |        -16 |        -46 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader        | UnityShader             |        -26 |          0 |          0 |        -26 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Base.cs                                    | C#                      |       -291 |       -314 |        -95 |       -700 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\GridGenerator.cs                           | C#                      |     -1,157 |       -741 |       -345 |     -2,243 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\NavMeshGenerator.cs                        | C#                      |       -161 |        -60 |        -52 |       -273 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\NavmeshBase.cs                             | C#                      |       -798 |       -336 |       -233 |     -1,367 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\NodeClasses\GridNode.cs                    | C#                      |       -241 |        -57 |        -64 |       -362 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\NodeClasses\GridNodeBase.cs                | C#                      |       -207 |        -98 |        -58 |       -363 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\NodeClasses\PointNode.cs                   | C#                      |       -146 |        -86 |        -41 |       -273 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\NodeClasses\TriangleMeshNode.cs            | C#                      |       -250 |       -120 |        -91 |       -461 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\PointGenerator.cs                          | C#                      |       -318 |       -184 |        -90 |       -592 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\QuadtreeGraph.cs                           | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\BBTree.cs                        | C#                      |       -359 |       -103 |        -86 |       -548 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\EuclideanEmbedding.cs            | C#                      |        -32 |        -12 |        -15 |        -59 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\GraphTransform.cs                | C#                      |       -141 |        -43 |        -32 |       -216 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\GridLookup.cs                    | C#                      |       -132 |        -35 |        -26 |       -193 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs               | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\NavmeshTile.cs                   | C#                      |        -38 |        -18 |        -21 |        -77 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs                   | C#                      |       -212 |        -15 |        -17 |       -244 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Generators\Utilities\PointKDTree.cs                   | C#                      |       -212 |        -53 |        -45 |       -310 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Legacy\Editor\LegacyAIPathEditor.cs                   | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Legacy\Editor\LegacyEditorHelper.cs                   | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Legacy\Editor\LegacyRVOControllerEditor.cs            | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Legacy\Editor\LegacyRichAIEditor.cs                   | C#                      |          0 |         -3 |         -2 |         -5 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Legacy\LegacyAIPath.cs                                | C#                      |       -141 |        -99 |        -53 |       -293 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Legacy\MiscLegacy.cs                                  | C#                      |        -22 |        -21 |         -6 |        -49 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Modifiers\AlternativePath.cs                          | C#                      |        -62 |        -17 |        -18 |        -97 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Modifiers\FunnelModifier.cs                           | C#                      |        -51 |        -47 |        -11 |       -109 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Modifiers\Modifiers.cs                                | C#                      |        -48 |        -26 |        -16 |        -90 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Modifiers\RaycastModifier.cs                          | C#                      |       -191 |        -86 |        -41 |       -318 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Modifiers\SimpleSmoothModifier.cs                     | C#                      |       -235 |        -52 |        -80 |       -367 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Modifiers\StartEndModifier.cs                         | C#                      |       -126 |       -124 |        -36 |       -286 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Navmesh\NavmeshUpdates.cs                             | C#                      |        -20 |        -33 |         -3 |        -56 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Navmesh\RelevantGraphSurface.cs                       | C#                      |        -67 |        -11 |        -17 |        -95 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\Editor\EditorBase.cs                     | C#                      |       -200 |         -9 |        -38 |       -247 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\Editor\EditorGUIx.cs                     | C#                      |       -164 |        -39 |        -43 |       -246 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\Editor\EnumFlagDrawer.cs                 | C#                      |        -32 |         -3 |         -5 |        -40 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\Editor\PackageToolsEditor.asmdef         | UnityAssemblyDefinition |        -12 |          0 |          0 |        -12 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\EnumFlagAttribute.cs                     | C#                      |         -5 |         -1 |         -2 |         -8 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\UniqueComponentAttribute.cs              | C#                      |         -6 |          0 |         -1 |         -7 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\PackageTools\VersionedMonoBehaviour.cs                | C#                      |        -31 |        -12 |        -11 |        -54 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Pathfinders\ABPath.cs                                 | C#                      |       -390 |       -259 |       -108 |       -757 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\TurnBased\BlockManager.cs                             | C#                      |        -97 |        -49 |        -24 |       -170 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\TurnBased\SingleNodeBlocker.cs                        | C#                      |        -32 |        -30 |         -8 |        -70 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\AstarChecksum.cs                            | C#                      |        -12 |         -6 |         -4 |        -22 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\AstarMemory.cs                              | C#                      |        -50 |        -48 |        -12 |       -110 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\AstarParallel.cs                            | C#                      |        -72 |        -25 |        -11 |       -108 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\AstarProfiler.cs                            | C#                      |       -145 |        -45 |        -36 |       -226 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\DotNetReplacements.cs                       | C#                      |       -118 |        -11 |        -35 |       -164 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\DynamicGridObstacle.cs                      | C#                      |       -127 |        -73 |        -36 |       -236 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\Funnel.cs                                   | C#                      |       -267 |        -91 |        -75 |       -433 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\GraphGizmoHelper.cs                         | C#                      |       -125 |        -18 |        -22 |       -165 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\GraphUpdateUtilities.cs                     | C#                      |        -34 |        -61 |        -15 |       -110 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\PathUtilities.cs                            | C#                      |       -263 |       -193 |        -81 |       -537 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\ProceduralGridMover.cs                      | C#                      |       -194 |       -133 |        -50 |       -377 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs                            | C#                      |        -99 |         -5 |        -20 |       -124 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\RetainedGizmos.cs                           | C#                      |       -243 |        -80 |        -54 |       -377 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs                     | C#                      |        -30 |         -6 |         -5 |        -41 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\link.xml                                              | XML                     |        -22 |          0 |          0 |        -22 |
+| d:\UnityProjects\GGJ2024\Assets\AstarPathfindingProject\package.json                                          | JSON                    |        -42 |          0 |          0 |        -42 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs                       | C#                      |        -94 |        -80 |        -25 |       -199 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs                  | C#                      |       -109 |        -18 |        -20 |       -147 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs                     | C#                      |       -137 |        -60 |        -20 |       -217 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs                   | C#                      |       -125 |        -51 |        -18 |       -194 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs                      | C#                      |        -63 |        -17 |        -14 |        -94 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs                          | C#                      |       -390 |       -203 |        -70 |       -663 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs                | C#                      |       -254 |        -99 |        -37 |       -390 |
+| d:\UnityProjects\GGJ2024\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs                       | C#                      |       -123 |        -27 |        -18 |       -168 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader                           | UnityShader             |       -109 |         -2 |        -33 |       -144 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader                                 | UnityShader             |       -112 |         -3 |        -31 |       -146 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader                                        | UnityShader             |       -109 |         -2 |        -33 |       -144 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader                                   | UnityShader             |       -243 |         -4 |        -71 |       -318 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader                                       | UnityShader             |       -241 |         -4 |        -66 |       -311 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader                            | UnityShader             |       -188 |        -10 |        -50 |       -248 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader                            | UnityShader             |       -183 |         -8 |        -50 |       -241 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader                                | UnityShader             |        -82 |         -4 |        -21 |       -107 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader                                    | UnityShader             |       -183 |         -8 |        -50 |       -241 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader                            | UnityShader             |       -103 |         -8 |        -28 |       -139 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader                                   | UnityShader             |       -122 |         -4 |        -33 |       -159 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_SDF.shader                                           | UnityShader             |       -243 |         -4 |        -71 |       -318 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader                                        | UnityShader             |        -97 |          0 |        -20 |       -117 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMPro.cginc                                              | UnityShader             |        -63 |         -2 |        -20 |        -85 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc                                       | UnityShader             |       -122 |         -2 |        -34 |       -158 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc                                   | UnityShader             |        -62 |        -10 |        -14 |        -86 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc                                      | UnityShader             |        -76 |         -7 |        -19 |       -102 |
+| d:\UnityProjects\GGJ2024\Assets\TextMesh Pro\Sprites\EmojiOne.json                                            | JSON                    |       -155 |          0 |         -2 |       -157 |
+| d:\UnityProjects\GGJ2024\Packages\manifest.json                                                               | JSON                    |        -48 |          0 |         -1 |        -49 |
+| d:\UnityProjects\GGJ2024\Packages\packages-lock.json                                                          | JSON                    |       -545 |          0 |         -1 |       -546 |
+| Total                                                                                                         |                         |    -43,240 |    -11,137 |     -8,541 |    -62,918 |
++---------------------------------------------------------------------------------------------------------------+-------------------------+------------+------------+------------+------------+

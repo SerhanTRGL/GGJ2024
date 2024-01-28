@@ -5,8 +5,10 @@ using DG.Tweening;
 public class JammerRunningState : JammerBaseState
 {
     JammerStateMachine jammer;
+    bool runPlayed;
     public override void EnterState(JammerStateMachine jammerStateMachine)
     {
+        runPlayed = false;
         waitCounter = 0;
         jammer = jammerStateMachine;
         jammer.seeker.StartPath(jammer.jammerRb.position, jammer.exitPoint.position, OnPathComplete);
@@ -24,10 +26,15 @@ public class JammerRunningState : JammerBaseState
     bool isTravelling = false;
     Tween tween;
     private float waitCounter;
+
     public override void UpdateState(JammerStateMachine jammerStateMachine)
     {
         if (waitCounter >= 0.5f)
         {
+            if(!runPlayed){
+                jammer.audioController.PlaySound(jammer.audioController.jammerStartRunning);
+                runPlayed = true;
+            }
             if (jammer.path == null)
             {
                 return;

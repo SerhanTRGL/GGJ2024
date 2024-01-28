@@ -1,0 +1,17 @@
+"filename", "language", "C#", "comment", "blank", "total"
+"d:\UnityProjects\GGJ2024\Assets\Scripts\ButtonFunctions.cs", "C#", 13, 0, 2, 15
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Chair.cs", "C#", 13, 0, 4, 17
+"d:\UnityProjects\GGJ2024\Assets\Scripts\GameManager.cs", "C#", 22, 2, 4, 28
+"d:\UnityProjects\GGJ2024\Assets\Scripts\IInteractable.cs", "C#", 4, 0, 1, 5
+"d:\UnityProjects\GGJ2024\Assets\Scripts\JamTimer.cs", "C#", 45, 0, 6, 51
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerBaseState.cs", "C#", 6, 0, 1, 7
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerCaptiveState.cs", "C#", 42, 0, 6, 48
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerManager.cs", "C#", 37, 0, 9, 46
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerRunningState.cs", "C#", 76, 0, 8, 84
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerStateMachine.cs", "C#", 36, 0, 6, 42
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerSuccessfulExitState.cs", "C#", 14, 0, 5, 19
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Jammer\JammerWorkingState.cs", "C#", 32, 2, 7, 41
+"d:\UnityProjects\GGJ2024\Assets\Scripts\PlayerInteraction.cs", "C#", 28, 2, 5, 35
+"d:\UnityProjects\GGJ2024\Assets\Scripts\PlayerMovement.cs", "C#", 58, 0, 11, 69
+"d:\UnityProjects\GGJ2024\Assets\Scripts\Table.cs", "C#", 34, 0, 5, 39
+"Total", "-", 460, 6, 80, 546

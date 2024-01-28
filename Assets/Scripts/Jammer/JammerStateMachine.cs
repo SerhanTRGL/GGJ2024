@@ -7,6 +7,7 @@ public class JammerStateMachine : MonoBehaviour, IInteractable{
     public JammerRunningState runningState = new JammerRunningState();
     public JammerSuccessfulExitState successfulExitState = new JammerSuccessfulExitState();
     public JammerCaptiveState captiveState = new JammerCaptiveState();
+    public JammerAudioController audioController;
     public Chair jammerChair;
     public Path path;
     public int currentWaypoint = 0;
@@ -18,6 +19,7 @@ public class JammerStateMachine : MonoBehaviour, IInteractable{
     private void Start() {
         seeker = GetComponent<Seeker>();
         jammerRb = GetComponent<Rigidbody2D>();
+        audioController = GetComponent<JammerAudioController>();
         JammerManager.Instance.AddJammerToList(this);
         exitPoint = GameObject.FindGameObjectWithTag("Exit").transform;
         currentState = workingState;
